@@ -19,7 +19,7 @@
 #}
 #
 
-animalsounds <- function(animal, sound) {
+animalsounds <- function(animal = NULL, sound = NULL) {
 
   if (!rlang::is_character(animal, 1)) {
     cli::cli_abort(

@@ -4,14 +4,14 @@
 \alias{animalsounds}
 \title{Title Test package Animal sounds}
 \usage{
-animalsounds(animal, country, sound)
+animalsounds(animal = NULL, sound = NULL)
 }
 \arguments{
 \item{animal}{A character variable giving names of animals}
 
-\item{country}{A character variable giving information on the country}
-
 \item{sound}{A character variable giving corresponding sounds animal make}
+
+\item{country}{A character variable giving information on the country}
 }
 \value{
 A vector with the values pasted together
@@ -21,6 +21,6 @@ Title Test package Animal sounds
 }
 \examples{
 
-animalsounds("dog","France","ouah ouah")
+animalsounds("dog","ouah ouah")
 
 }
